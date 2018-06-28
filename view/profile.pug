@@ -1,0 +1,14 @@
+html
+head
+   title Person
+   link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+   script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+   script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+   body
+    div.container
+        div.col-md-6
+            h2.text-center Userdetails
+                div
+                    label(for = "username") Welcome #{data.name} your username is #{data.username} 
+                br
+                a.btn.btn-success.btn-lg(type = "submit" href="/logout") Logout

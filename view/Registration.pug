@@ -1,0 +1,25 @@
+html
+head
+   title Person
+   link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+   script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+   script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+   body
+    div.container
+        div.col-md-6
+            h2.text-center Registration Form
+            form(action = "/person", method = "POST")
+                div
+                    label(for = "name") Name: 
+                    input.form-control(name = "name")
+                br
+                div
+                    label(for = "username") Username: 
+                    input.form-control(name = "username")
+                br
+                div
+                    label(for = "password") Password: 
+                    input.form-control(name = "password" type="password")
+                br
+                button.btn.btn-success(type = "submit") Create new person
+            a.btn.btn-primary(href = "/retrieve") Retrieve

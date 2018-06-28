@@ -1,0 +1,18 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Abhi S Raj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.7",
+    "pug": "^2.0.3"
+  }
+}
